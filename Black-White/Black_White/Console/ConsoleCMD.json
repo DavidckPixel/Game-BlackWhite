@@ -1,0 +1,63 @@
+{
+  "Windows": [
+    {
+      "Parent": "Windows",
+      "Command": "SetSize",
+
+      "Variable": [ "x", "y", "res" ],
+      "VariableInf": [ "(int) Width of the Screen", "(int) Height of the Screen", "(string) Resolution of the screen" ],
+      "Info": "This command can be used to change the size of the Window",
+      "Func": "changeWindowSize(Variables[0], Variables[1], Variables[2])"
+    },
+    {
+      "Parent": "Windows",
+      "Command": "GetWidth",
+
+      "Variable": [],
+      "VariableInf": [],
+      "Info": "Returns the current Width of the screen",
+      "Func": ""
+    },
+    {
+      "Parent": "Windows",
+      "Command": "GetHeight",
+
+      "Variable": [],
+      "VariableInf": [],
+      "Info": "Returns the current Height of the screen",
+      "Func": ""
+    }
+  ],
+
+  //-----------------------------------------------------------------
+
+  "console": [
+    {
+      "Parent": "Console",
+      "Command": "Clear",
+
+      "Variable": [],
+      "VariableInf": [],
+      "Info": "This command clears the window",
+      "Func": ""
+    },
+    {
+      "Parent": "Console",
+      "Command": "setSaveHistory",
+
+      "Variable": [],
+      "VariableInf": [],
+      "Info": "Sets ConsoleConfig.SaveHistory to TRUE, this will create a file and log all console cmds",
+      "Func": ""
+    },
+    {
+      "Parent": "Console",
+      "Command": "getSaveHistory",
+
+      "Variable": [],
+      "VariableInf": [],
+      "Info": "Returns the value of ConsoleConfig.SaveHistory (Bool)",
+      "Func": ""
+    }
+  ]
+}

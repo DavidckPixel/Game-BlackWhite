@@ -1,0 +1,14 @@
+{
+  "Screen": {
+    "x": 1000,
+    "y": 600,
+    "res": "16:9"
+  },
+    "Cons": {
+      "enabled": "false",
+      "saveHistory": "true",
+      "lines": 10,
+      "consoleInf": "Later",
+      "historyFolder":  "Console/Log/"
+    }
+}
