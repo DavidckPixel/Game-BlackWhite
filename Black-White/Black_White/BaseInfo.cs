@@ -16,7 +16,7 @@ namespace Black_White
 
         public static void initBaseInfo()
         {
-            string file = "C:/Users/david/source/repos/Black_White/Black_White/BaseFile.json";
+            string file = "D:/Game-BlackWhite/Black-White/Black_White/BaseFile.json";
             try
             {
                 using (StreamReader r = new StreamReader(file))

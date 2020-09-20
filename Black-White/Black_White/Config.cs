@@ -26,6 +26,7 @@ namespace Black_White
         {
             string file = BaseInfo.BaseFiles["Base"] + BaseInfo.BaseFiles["StandardConfig"];
 
+
             try
             {
                 using (StreamReader r = new StreamReader(file))
