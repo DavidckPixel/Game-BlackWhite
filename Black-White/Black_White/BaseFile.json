@@ -1,5 +1,6 @@
 {
     "Base": "D:/Game-BlackWhite/Black-White/Black_White/",
     "StandardConfig": "StandardConfig.json",
-    "ConsoleCMD": "Console/ConsoleCMD.json"
+    "ConsoleCMD": "Console/ConsoleCMD.json",
+    "Logfolder": "Logs/"
 }

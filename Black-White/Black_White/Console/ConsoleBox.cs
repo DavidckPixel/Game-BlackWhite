@@ -104,15 +104,18 @@ namespace Black_White
             }
         }
 
-        public static void MessageWrite(string message)
+        public static void MessageWrite(params string[] message)
         {
-            Messages.Add(message);
-
-            if (!ConsConfig.SaveHistory) { return; } //EVERYTHING BEYOND THIS POINT IF SAVEHISTORY == TRUE
-
-            using(StreamWriter sw = File.AppendText(ConsConfig.filename))
+            foreach (string x in message)
             {
-                sw.WriteLine(message);
+                Messages.Add(x);
+
+                if (!ConsConfig.SaveHistory) { return; } //EVERYTHING BEYOND THIS POINT IF SAVEHISTORY == TRUE
+
+                using (StreamWriter sw = File.AppendText(ConsConfig.filename))
+                {
+                    sw.WriteLine(x);
+                }
             }
         }
     }

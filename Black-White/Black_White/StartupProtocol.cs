@@ -16,6 +16,8 @@ namespace Black_White
         {
             BaseInfo.initBaseInfo();
 
+            Log.initLog();
+
             Config.initConfigFile();
             WindowConfig.initializeScreen();
 

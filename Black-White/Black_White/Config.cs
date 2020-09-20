@@ -16,10 +16,11 @@ namespace Black_White
         static WindowConfig screen;
         static ConsConfig cons;
 
-        public Config(WindowConfig Screen, ConsConfig Cons)
+        public Config(WindowConfig Screen, ConsConfig Cons, TileConfig tile)
         {
             screen = Screen;
             cons = Cons;
+            Tile.Conf = tile;
         }
 
         public static void initConfigFile()

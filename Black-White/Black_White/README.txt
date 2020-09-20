@@ -32,6 +32,6 @@ will be printed. After typing a /parent - /Command and pressing TAB, it will dis
 An example of a command:
 	"Windows SetSize 1000 1000 16by9"
 
-after typing in ur command press ENTER to have the console execute it.
+after typing in ur command press ENTER to have the console execute it. 
 
 If Console.SaveHistory is set to TRUE (StandardConfig.json or in Console: Console setSaveHistory) all console input and return messages are saved in a .txt file in the /console/log/ folder. 

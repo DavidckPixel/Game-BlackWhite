@@ -4,11 +4,17 @@
     "y": 600,
     "res": "16:9"
   },
-    "Cons": {
-      "enabled": "false",
-      "saveHistory": "true",
-      "lines": 10,
-      "consoleInf": "Later",
-      "historyFolder":  "Console/Log/"
-    }
+  "Cons": {
+    "enabled": "false",
+    "saveHistory": "true",
+    "lines": 10,
+    "consoleInf": "Later",
+    "historyFolder": "Console/Log/"
+  },
+  "tile": {
+    "Width": 16,
+    "Height": 16,
+    "TilePerScreen": 16
+  }
+
 }
